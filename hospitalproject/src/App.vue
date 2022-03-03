@@ -1,14 +1,14 @@
 <template>
-  <welcomeSection />
+  <loginForm />
 </template>
 
 <script>
-import welcomeSection from './components/LandingPage/welcomeSection.vue'
+import loginForm from './components/loginpage/loginForm.vue'
 
 export default {
   name: 'App',
   components: {
-    welcomeSection
+    loginForm
   }
 }
 </script>
